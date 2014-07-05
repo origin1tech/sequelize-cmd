@@ -1,0 +1,34 @@
+{
+	"development": {
+		"db": {
+			"host": "localhost",
+			"port": 3306,
+			"username": "root",
+			"password": null
+		},
+		"migration": {
+			"path": "./migrations",
+			"filesFilter": "/\.js$/",
+			"models": "./models",
+			"seeds": "./seeds",
+			"comments": true
+		}
+	},
+
+	"production": {
+		"db": {
+			"host": "localhost",
+			"port": 3306,
+			"username": "root",
+			"password": null
+		},
+		"migration": {
+			"path": "./migrations",
+			"filesFilter": "/\.js$/",
+			"models": "./models",
+			"seeds": "./seeds",
+			"comments": true
+		}
+	}
+	
+}

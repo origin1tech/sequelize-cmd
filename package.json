@@ -1,0 +1,38 @@
+{
+  "name": "sequelize-cmd",
+  "version": "0.0.1",
+  "description": "Extended cli for sequelize.",
+  "main": "./lib/index.js",
+  "bin": {
+    "sqcmd": "./bin/cli.js"
+  },
+  "directories": {
+    "bin": "./bin"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/origin1tech/sequelize-cmd.git"
+  },
+  "keywords": [
+    "Sequelize",
+    "Cli",
+    "Migration",
+    "Migrations",
+    "Migrate"
+  ],
+  "author": "Origin1 Technologies <origin1tech@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/origin1tech/sequelize-cmd/issues"
+  },
+  "homepage": "https://github.com/origin1tech/sequelize-cmd",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "optimist": "^0.6.1",
+    "sequelize": "^1.7.9"
+  }
+}
