@@ -31,6 +31,8 @@
   "homepage": "https://github.com/origin1tech/sequelize-cmd",
   "readmeFilename": "README.md",
   "dependencies": {
+    "cli-color": "^0.3.2",
+    "fs-extra": "^0.10.0",
     "lodash": "^2.4.1",
     "optimist": "^0.6.1",
     "sequelize": "^1.7.9"

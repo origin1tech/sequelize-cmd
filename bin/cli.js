@@ -1,3 +1,5 @@
+#! /usr/bin/env node
 'use strict';
 
-require(__dirname + '../lib');
+var SqCmd = require('../lib');
+new SqCmd(true);
