@@ -1,34 +1,40 @@
 {
-	"development": {
-		"db": {
-			"host": "localhost",
-			"port": 3306,
-			"username": "root",
-			"password": null
-		},
-		"migration": {
-			"path": "./migrations",
-			"filesFilter": "/\.js$/",
-			"models": "./models",
-			"seeds": "./seeds",
-			"comments": true
-		}
-	},
+    "development": {
+        "db": {
+            "dialect": "mysql",
+            "host": "localhost",
+            "port": 3306,
+            "database": "devdb",
+            "username": "root",
+            "password": null
+        },
+        "migration": {
+            "path": "./migrations",
+            "filesFilter": "\\.js$",
+            "models": "./models",
+            "seeds": "./seeds",
+            fileNames: 'lower',
+            modelNames: 'first'
+        }
+    },
 
-	"production": {
-		"db": {
-			"host": "localhost",
-			"port": 3306,
-			"username": "root",
-			"password": null
-		},
-		"migration": {
-			"path": "./migrations",
-			"filesFilter": "/\.js$/",
-			"models": "./models",
-			"seeds": "./seeds",
-			"comments": true
-		}
-	}
-	
+    "production": {
+        "db": {
+            "dialect": "mysql",
+            "host": "localhost",
+            "port": 3306,
+            "database": "devdb",
+            "username": "root",
+            "password": null
+        },
+        "migration": {
+            "path": "./migrations",
+            "filesFilter": "\\.js$",
+            "models": "./models",
+            "seeds": "./seeds",
+            fileNames: 'lower',
+            modelNames: 'first'
+        }
+    }
+
 }
