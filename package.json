@@ -1,6 +1,6 @@
 {
   "name": "sequelize-cmd",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Extended cli for sequelize.",
   "main": "./lib/index.js",
   "bin": {
@@ -23,18 +23,40 @@
     "Migrations",
     "Migrate"
   ],
-  "author": "Origin1 Technologies <origin1tech@gmail.com>",
+  "author": {
+    "name": "Origin1 Technologies",
+    "email": "origin1tech@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/origin1tech/sequelize-cmd/issues"
   },
   "homepage": "https://github.com/origin1tech/sequelize-cmd",
-  "readmeFilename": "README.md",
   "dependencies": {
     "cli-color": "^0.3.2",
     "fs-extra": "^0.10.0",
     "lodash": "^2.4.1",
     "optimist": "^0.6.1",
     "sequelize": "^1.7.9"
-  }
+  },
+  "gitHead": "427908084927f90e9b2846c26c1ac1b5aeb8cd39",
+  "_id": "sequelize-cmd@0.0.2",
+  "_shasum": "57714975f1278790512cb19f53383e9f96fa4e80",
+  "_from": "sequelize-cmd@0.0.2",
+  "_npmVersion": "1.4.14",
+  "_npmUser": {
+    "name": "origin1tech",
+    "email": "origin1tech@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "origin1tech",
+      "email": "origin1tech@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "57714975f1278790512cb19f53383e9f96fa4e80",
+    "tarball": "http://registry.npmjs.org/sequelize-cmd/-/sequelize-cmd-0.0.2.tgz"
+  },
+  "_resolved": "https://registry.npmjs.org/sequelize-cmd/-/sequelize-cmd-0.0.2.tgz"
 }
