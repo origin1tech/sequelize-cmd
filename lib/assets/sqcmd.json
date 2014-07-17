@@ -9,12 +9,12 @@
             "password": null
         },
         "migration": {
-            "path": "./migrations",
-            "filesFilter": "\\.js$",
+            "migrations": "./migrations",
             "models": "./models",
             "seeds": "./seeds",
-            fileNames: 'lower',
-            modelNames: 'first'
+            "filesFilter": "\\.js$",
+            "fileNames": undefined,
+            "modelNames": undefined
         }
     },
 
@@ -28,12 +28,12 @@
             "password": null
         },
         "migration": {
-            "path": "./migrations",
-            "filesFilter": "\\.js$",
+            "migrations": "./migrations",
             "models": "./models",
             "seeds": "./seeds",
-            fileNames: 'lower',
-            modelNames: 'first'
+            "filesFilter": "\\.js$",
+            "fileNames": undefined,
+            "modelNames": undefined
         }
     }
 
