@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/origin1tech/sequelize-cmd",
   "dependencies": {
+    "chance": "^0.5.9",
     "cli-color": "^0.3.2",
     "fs-extra": "^0.10.0",
     "lodash": "^2.4.1",
