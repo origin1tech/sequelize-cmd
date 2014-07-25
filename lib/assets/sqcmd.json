@@ -1,5 +1,6 @@
 {
     "development": {
+        "templates": undefined,
         "db": {
             "dialect": "mysql",
             "host": "localhost",
@@ -13,12 +14,14 @@
             "models": "./models",
             "seeds": "./seeds",
             "filesFilter": "\\.js$",
-            "fileNames": undefined,
-            "modelNames": undefined
+            "fileNames": "lower",
+            "modelNames": "capitalize",
+            "typeVariable": "types"
         }
     },
 
     "production": {
+        "templates": undefined,
         "db": {
             "dialect": "mysql",
             "host": "localhost",
@@ -32,8 +35,9 @@
             "models": "./models",
             "seeds": "./seeds",
             "filesFilter": "\\.js$",
-            "fileNames": undefined,
-            "modelNames": undefined
+            "fileNames": "lower",
+            "modelNames": "capitalize",
+            "typeVariable": "types"
         }
     }
 

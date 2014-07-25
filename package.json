@@ -1,6 +1,6 @@
 {
   "name": "sequelize-cmd",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Extended cli for sequelize.",
   "main": "./lib/index.js",
   "bin": {
