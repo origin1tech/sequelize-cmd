@@ -1,6 +1,6 @@
 {
   "name": "sequelize-cmd",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Extended cli for sequelize.",
   "main": "./lib/index.js",
   "bin": {
@@ -38,7 +38,7 @@
     "fs-extra": "^0.10.0",
     "lodash": "^2.4.1",
     "optimist": "^0.6.1",
-    "sequelize": "^1.7.9"
+    "sequelize": "origin1tech/sequelize"
   },
   "gitHead": "427908084927f90e9b2846c26c1ac1b5aeb8cd39",
   "_id": "sequelize-cmd@0.0.2",
