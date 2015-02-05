@@ -1,5 +1,14 @@
 #Sequelize-cmd
 
+#DEPRECATED
+
+NOTE: sequelize has been deprecated due to the decision to pull the sequelize migrator from future releases
+of sequelize. Although some recent fixes/improvements have been completed you should consider exploring
+the suggested interface for migrations [Umzug](https://github.com/sequelize/umzug).
+
+The intent will be to port this project so as to support the a above mentioned alternative. The will add features
+which will add the automatic creation of migrations based on models such as intended by sequelize-cmd.
+
 A command line interface for Sequelize. Largely based on sequelize-cli "cmd" adds advanced features that provide
 auto generated migrations based on previous model states. Up and Down migration events are then stubbed out
 accordingly.
